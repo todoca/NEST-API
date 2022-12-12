@@ -17,7 +17,7 @@ model User {
 
   firstName String?
   lastName  String?
-  Bookmarks  Bookmark[]
+  Bookmarks Bookmark[]
 
   @@map("users")
 }
